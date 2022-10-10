@@ -1,0 +1,18 @@
+Package: Multiserver
+Title: This package serves as a simulation for customers in a bank, and the time it takes for them to be served, on a first come, first serve basis.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Luke", family = "Caprarelli", email = "luke.caprarelli@mq.students.edu.au", role = c("aut", "cre"))
+Description: This package allows for the predetermined times of arrivals for customers to be simulated and calculated when they will be served.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    tibble
+Depends: 
+    R (>= 2.10)
+LazyData: true
